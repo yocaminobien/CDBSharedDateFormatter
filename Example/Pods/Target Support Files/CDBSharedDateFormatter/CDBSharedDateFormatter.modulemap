@@ -1,0 +1,6 @@
+framework module CDBSharedDateFormatter {
+  umbrella header "CDBSharedDateFormatter-umbrella.h"
+
+  export *
+  module * { export * }
+}

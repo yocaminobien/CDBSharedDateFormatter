@@ -1,23 +1,21 @@
-//
-//  CDBViewController.m
-//  CDBSharedDateFormatter
-//
-//  Created by yocaminobien on 01/06/2016.
-//  Copyright (c) 2016 yocaminobien. All rights reserved.
-//
+
 
 #import "CDBViewController.h"
+@import CDBSharedDateFormatter;
+
 
 @interface CDBViewController ()
 
 @end
+
 
 @implementation CDBViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [NSDateFormatter sharedInstance].dateStyle = kCFDateFormatterShortStyle;
+    NSLog(@"%@", [[NSDateFormatter sharedInstance] stringFromDate:[NSDate date]]);
 }
 
 - (void)didReceiveMemoryWarning

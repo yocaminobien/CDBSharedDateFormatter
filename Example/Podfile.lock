@@ -1,0 +1,14 @@
+PODS:
+  - CDBSharedDateFormatter (0.0.1)
+
+DEPENDENCIES:
+  - CDBSharedDateFormatter (from `../`)
+
+EXTERNAL SOURCES:
+  CDBSharedDateFormatter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CDBSharedDateFormatter: 75efc2d088cefcf1b9eb07b8ff7b8ecb07e3b934
+
+COCOAPODS: 0.38.2
